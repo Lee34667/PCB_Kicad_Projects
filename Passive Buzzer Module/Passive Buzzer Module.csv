@@ -1,0 +1,5 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"Q1";"TO-92_HandSolder";1;"S8550";;;
+2;"J1";"PinHeader_1x03_P2.54mm_Horizontal";1;"Conn_01x03_Pin";;;
+3;"BZ1";"Buzzer_12x9.5RM7.6";1;"Buzzer";;;
+4;"R1";"R_0201_0603Metric";1;"1k";;;
