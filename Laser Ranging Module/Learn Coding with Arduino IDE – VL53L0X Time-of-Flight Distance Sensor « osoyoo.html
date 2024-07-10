@@ -1,0 +1,506 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<!-- Reddit Pixel -->
+<script>
+!function(w,d){if(!w.rdt){var p=w.rdt=function(){p.sendEvent?p.sendEvent.apply(p,arguments):p.callQueue.push(arguments)};p.callQueue=[];var t=d.createElement("script");t.src="https://www.redditstatic.com/ads/pixel.js",t.async=!0;var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}}(window,document);rdt('init','a2_exibr832qkiv');rdt('track', 'PageVisit');
+</script>
+<!-- DO NOT MODIFY UNLESS TO REPLACE A USER IDENTIFIER -->
+<!-- End Reddit Pixel -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QSJ6JL9R5T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QSJ6JL9R5T');
+</script>
+<script async src="https://fundingchoicesmessages.google.com/i/pub-7537483844671589?ers=1" nonce="JgN_4xRvD0KK4bd4qjdx1Q"></script><script nonce="JgN_4xRvD0KK4bd4qjdx1Q">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+ <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PC3R9XL2');</script>
+<!-- End Google Tag Manager -->
+<!--
+<script data-ad-client="ca-pub-7537483844671589" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+ -->
+ 
+<title>Learn Coding with Arduino IDE – VL53L0X Time-of-Flight Distance Sensor &laquo; osoyoo.com</title>
+<link type="text/css" rel="stylesheet" href="https://osoyoo.com/wp-content/themes/bombax/AmScript/Common.css">
+<link type="text/css" rel="stylesheet" href="https://osoyoo.com/wp-content/themes/bombax/AmScript/AmSingle.css">
+<script type="text/javascript" src="https://osoyoo.com/wp-content/themes/bombax/AmScript/AmCategory.js"></script>
+<script type="text/javascript" src="https://osoyoo.com/wp-content/themes/bombax/AmScript/Lang.js"></script>
+<script type="text/javascript" src="https://osoyoo.com/wp-content/themes/bombax/AmScript/Search.js"></script>
+<script type="text/javascript" src=""></script>
+<link rel="alternate" type="application/rss+xml" title="osoyoo.com latest post RSS" href="https://osoyoo.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="osoyoo.com latest comment RSS" href="https://osoyoo.com/comments/feed/" />
+<link rel="pingback" href="https://osoyoo.com/xmlrpc.php" />
+<link rel="icon" href="https://osoyoo.com/picture/osoyoo.ico"  />
+<link rel="shortcut icon" href="https://osoyoo.com/picture/osoyoo.ico"  />
+
+<link rel="apple-touch-icon-precomposed" href="https://osoyoo.com/wp-content/uploads/2019/10/OSOYOOfavicon.png" />
+<meta name="msapplication-TileImage" content="https://osoyoo.com/wp-content/uploads/2019/10/OSOYOOfavicon.png" />
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC3R9XL2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="PageHeadBg">
+
+<div id="PageHead">
+     <div id="LineTop">
+          <a href="https://osoyoo.com/zh">
+		  <img class="Logo" src="https://osoyoo.com/wp-content/themes/bombax/AmImages/Logo.png">
+		  </a>
+		  
+     <div id="NavMain">
+          <a href="https://osoyoo.com/zh" class="Nav">Home</a>
+          <a class="Nav" id="AmAllCategory" onClick="AmAllCategoryInit(0,0);" >All Category</a>
+         <a href="https://osoyoo.com/zh/about-us/" class="Nav">
+Contact us
+</a>
+<a href="https://osoyoo.com/clearance-refurbished-robot-cars/" class="Nav">
+<font color=FF0000>Clearance DEAL!</font>
+</a>
+<a href="https://osoyoo.com/partner/" class="Nav">
+Join us
+</a>
+     </div>
+
+     <form class="Search" method="get" target="_self" action="https://osoyoo.com/zh">		  
+          <input class="InputText" type="text" id="AmSearchText" name="s" value="">
+		  <input class="InputSubmit" type="Submit" value="">
+     </form>
+	 <div class="UserInfo">
+	 <a class="UserTopAction" href="https://osoyoo.com/wp-login.php">Login</a><a class="UserTopAction" href="https://osoyoo.com/wp-login.php?action=register">Register</a>	 </div>
+	 <div class="Share">
+	      <a href="https://twitter.com/osoyooproduct" title="twitter">
+		       <img src="https://osoyoo.com/wp-content/themes/bombax/AmImages/twitter.png">
+		  </a>
+	      <a href="https://www.facebook.com/OsoyooStore" title="facebook">
+		       <img src="https://osoyoo.com/wp-content/themes/bombax/AmImages/facebook.png">
+		  </a>
+	      <a href="https://osoyoo.com/feed/" title="feed">
+		       <img src="https://osoyoo.com/wp-content/themes/bombax/AmImages/rss.png">
+		  </a>		  
+	 </div>		  
+		  	  
+<span id="AmLangIco" onclick="AmLanguageChange('AmLang');"><img src="https://osoyoo.com/wp-content/themes/bombax/AmImages/zh.png" class="LangIco"><a hef="#https://osoyoo.com/zh/2019/04/21/arduino-lesson-vl53l0x-time-of-flight-distance-sensor/">中文</a></span><div id="AmLang">
+	 <span class="AmLangList">
+	 <img src="https://osoyoo.com/wp-content/themes/bombax/AmImages/us.png" class="LangIco">
+     <a class="AmLangSet" href="https://osoyoo.com/2019/04/21/arduino-lesson-vl53l0x-time-of-flight-distance-sensor/">English</a>
+	 </span>
+	 <span class="AmLangList">
+	 <img src="https://osoyoo.com/wp-content/themes/bombax/AmImages/it.png" class="LangIco">
+     <a class="AmLangSet" href="https://osoyoo.com/it/2019/04/21/arduino-lesson-vl53l0x-time-of-flight-distance-sensor/">Italiano</a>
+	 </span>
+	 <span class="AmLangList">
+	 <img src="https://osoyoo.com/wp-content/themes/bombax/AmImages/fr.png" class="LangIco">
+     <a class="AmLangSet" href="https://osoyoo.com/fr/2019/04/21/arduino-lesson-vl53l0x-time-of-flight-distance-sensor/">Français</a>
+	 </span>
+	 	 <span class="AmLangList">
+	 <img src="https://osoyoo.com/wp-content/themes/bombax/AmImages/es.png" class="LangIco">
+     <a class="AmLangSet" href="https://osoyoo.com/es/2019/04/21/arduino-lesson-vl53l0x-time-of-flight-distance-sensor/">Español</a>
+	 </span>
+	 <span class="AmLangList">
+	 <img src="https://osoyoo.com/wp-content/themes/bombax/AmImages/de.png" class="LangIco">
+     <a class="AmLangSet" href="https://osoyoo.com/de/2019/04/21/arduino-lesson-vl53l0x-time-of-flight-distance-sensor/">Deutsch</a>
+	 </span>
+	 <span class="AmLangList">
+	 <img src="https://osoyoo.com/wp-content/themes/bombax/AmImages/jp.png" class="LangIco">
+     <a class="AmLangSet" href="https://osoyoo.com/ja/2019/04/21/arduino-lesson-vl53l0x-time-of-flight-distance-sensor/">日本語</a>
+	 </span>
+</div>
+
+     </div>
+     <div id="AmAllCategoryBg">
+          <div id="AmAllCategoryBox">
+          <div name="AmLayer" id="AmLayer_0" class="AmLayer">
+               <ul name="AmSub_0" id="AmSub_0_0" class="CategoryList">
+                    <li id="Cat_14"><a href="https://osoyoo.com/zh/category/iot/" onmouseover="AmAllCategory(1,14);">Internet of Things</a></li>
+                    <li id="Cat_6"><a href="https://osoyoo.com/zh/category/osoyoo-raspi-kit/" onmouseover="AmAllCategory(1,6);">OSOYOO Hardware Program learning Kit for Raspberry Pi </a></li>
+                    <li id="Cat_3"><a href="https://osoyoo.com/zh/category/osoyoo-kit/" onmouseover="AmAllCategory(1,3);">OSOYOO Hardware Programming Learning Kit</a></li>
+                    <li id="Cat_682"><a href="https://osoyoo.com/zh/category/osoyoo-robot-car-kit/" onmouseover="AmAllCategory(1,682);">OSOYOO Robot Car Kit A series</a></li>
+                    <li id="Cat_20"><a href="https://osoyoo.com/zh/category/sensors/" onmouseover="AmAllCategory(1,20);">Sensors &amp; Accessories</a></li>
+                    <li id="Cat_744"><a href="https://osoyoo.com/zh/category/single-board/" onmouseover="AmAllCategory(1,744);">Single Board</a></li>
+                    <li id="Cat_5"><a href="https://osoyoo.com/zh/category/tutorial-ebook/" onmouseover="AmAllCategory(1,5);">Tutorial &amp; eBook</a></li>
+                    <li id="Cat_1"><a href="https://osoyoo.com/zh/category/uncategorized/" onmouseover="AmAllCategory(1,1);">Uncategorized</a></li>
+                    <li id="Cat_733"><a href="https://osoyoo.com/zh/category/building-blocks/" onmouseover="AmAllCategory(1,733);">Building Blocks</a></li>
+                    <li id="Cat_732"><a href="https://osoyoo.com/zh/category/mblock-graphic-programming/" onmouseover="AmAllCategory(1,732);">mBlock Graphic Programming</a></li>
+                    <li id="Cat_672"><a href="https://osoyoo.com/zh/category/microbit/" onmouseover="AmAllCategory(1,672);">Micro:bit</a></li>
+                    <li id="Cat_730"><a href="https://osoyoo.com/zh/category/raspberry-pi-pico/" onmouseover="AmAllCategory(1,730);">Raspberry Pi Pico</a></li>
+                    <li id="Cat_405"><a href="https://osoyoo.com/zh/category/tutorial-examples/" onmouseover="AmAllCategory(1,405);">Tutorial &amp; Examples</a></li>
+                    <li id="Cat_7"><a href="https://osoyoo.com/zh/category/%e6%b5%8b%e8%af%95/" onmouseover="AmAllCategory(1,7);">测试</a></li>
+               </ul>
+          </div>
+          <div name="AmLayer" id="AmLayer_1" class="AmLayer">
+               <ul name="AmSub_1" id="AmSub_1_14" class="CategoryList">
+                    <li id="Cat_724"><a href="https://osoyoo.com/zh/category/iot/osoyoo-esp8266-wifi-module/" onmouseover="AmAllCategory('2','724');">OSOYOO ESP8266 Wifi Module</a></li>
+                    <li id="Cat_705"><a href="https://osoyoo.com/zh/category/iot/w5100-ethernet-iot-kit-for-beginner/" onmouseover="AmAllCategory('2','705');">OSOYOO W5100 Ethernet IoT learning Kit</a></li>
+                    <li id="Cat_711"><a href="https://osoyoo.com/zh/category/iot/arduino-wifi-iot-learning-kit/" onmouseover="AmAllCategory('2','711');">OSOYOO Wifi IoT Learning Kit </a></li>
+                    <li id="Cat_729"><a href="https://osoyoo.com/zh/category/iot/smart-house-iot-learning-kit-v2-0/" onmouseover="AmAllCategory('2','729');">Smart House V2.0 Blynk Control</a></li>
+                    <li id="Cat_727"><a href="https://osoyoo.com/zh/category/iot/blynk-iot-learning-kit/" onmouseover="AmAllCategory('2','727');">Blynk IoT Learning Kit</a></li>
+                    <li id="Cat_670"><a href="https://osoyoo.com/zh/category/iot/lora-related/" onmouseover="AmAllCategory('2','670');">LoRa Related</a></li>
+                    <li id="Cat_483"><a href="https://osoyoo.com/zh/category/iot/nodemcu-iot-kit-iot/" onmouseover="AmAllCategory('2','483');">NodeMCU IoT Kit</a></li>
+                    <li id="Cat_704"><a href="https://osoyoo.com/zh/category/iot/smart-home-iot-kit/" onmouseover="AmAllCategory('2','704');">Smart Home Iot Kit</a></li>
+                    <li id="Cat_737"><a href="https://osoyoo.com/zh/category/iot/smart-home-v2-0-udp-app-control/" onmouseover="AmAllCategory('2','737');">Smart Home V2.0 UDP APP control</a></li>
+               </ul>
+               <ul name="AmSub_1" id="AmSub_1_6" class="CategoryList">
+                    <li id="Cat_690"><a href="https://osoyoo.com/zh/category/osoyoo-raspi-kit/raspberry-pi-project/" onmouseover="AmAllCategory('2','690');"> Project for Raspberry Pi </a></li>
+                    <li id="Cat_659"><a href="https://osoyoo.com/zh/category/osoyoo-raspi-kit/raspberry-pi-iot/" onmouseover="AmAllCategory('2','659');">IOT kit for raspberry Pi </a></li>
+                    <li id="Cat_720"><a href="https://osoyoo.com/zh/category/osoyoo-raspi-kit/mecanum-wheel-car/" onmouseover="AmAllCategory('2','720');">Mecanum Wheel Car</a></li>
+                    <li id="Cat_489"><a href="https://osoyoo.com/zh/category/osoyoo-raspi-kit/osoyoo-basic-kit-raspberry-pi-zero/" onmouseover="AmAllCategory('2','489');">OSOYOO basic kit for Raspberry pi zero</a></li>
+                    <li id="Cat_660"><a href="https://osoyoo.com/zh/category/osoyoo-raspi-kit/osoyoo-car-v1-raspberry-pi/" onmouseover="AmAllCategory('2','660');">OSOYOO Robot Car V1 for Raspberry Pi</a></li>
+                    <li id="Cat_708"><a href="https://osoyoo.com/zh/category/osoyoo-raspi-kit/osoyoo-car-v2-pi/" onmouseover="AmAllCategory('2','708');">OSOYOO Robot Car V2 for Raspberry Pi </a></li>
+                    <li id="Cat_513"><a href="https://osoyoo.com/zh/category/osoyoo-raspi-kit/osoyoo-starter-kit-v1-for-raspberry-pi/" onmouseover="AmAllCategory('2','513');">OSOYOO Starter Kit V1 for Raspberry Pi</a></li>
+                    <li id="Cat_466"><a href="https://osoyoo.com/zh/category/osoyoo-raspi-kit/osoyoo-starter-kit-raspberry-pi/" onmouseover="AmAllCategory('2','466');">OSOYOO Starter Kit V2 for Raspberry Pi</a></li>
+                    <li id="Cat_506"><a href="https://osoyoo.com/zh/category/osoyoo-raspi-kit/screen-raspberry-pi/" onmouseover="AmAllCategory('2','506');">Screen for Raspberry Pi</a></li>
+                    <li id="Cat_664"><a href="https://osoyoo.com/zh/category/osoyoo-raspi-kit/tank-car-raspberry-pi/" onmouseover="AmAllCategory('2','664');">Tank Car for Raspberry Pi </a></li>
+                    <li id="Cat_748"><a href="https://osoyoo.com/zh/category/osoyoo-raspi-kit/osoyoo-v4-0-robot-car-for-raspberry-pi/" onmouseover="AmAllCategory('2','748');">OSOYOO V4.0 Robot Car for Raspberry Pi</a></li>
+                    <li id="Cat_750"><a href="https://osoyoo.com/zh/category/osoyoo-raspi-kit/v5-robot-car-for-raspberry-pi-arduino/" onmouseover="AmAllCategory('2','750');">V5 Robot Car for Raspberry Pi/Arduino</a></li>
+               </ul>
+               <ul name="AmSub_1" id="AmSub_1_3" class="CategoryList">
+                    <li id="Cat_484"><a href="https://osoyoo.com/zh/category/osoyoo-kit/arduinonodemcu-garden-watering-kit/" onmouseover="AmAllCategory('2','484');">NodeMCU Garden Watering Kit</a></li>
+                    <li id="Cat_652"><a href="https://osoyoo.com/zh/category/osoyoo-kit/osoyoo-161-sensor-kit/" onmouseover="AmAllCategory('2','652');">OSOYOO 16+1 Sensor kit</a></li>
+                    <li id="Cat_10"><a href="https://osoyoo.com/zh/category/osoyoo-kit/osoyoo-3d-printer-kit/" onmouseover="AmAllCategory('2','10');">OSOYOO 3D Printer Kit</a></li>
+                    <li id="Cat_491"><a href="https://osoyoo.com/zh/category/osoyoo-kit/osoyoo-advanced-kit/" onmouseover="AmAllCategory('2','491');">OSOYOO Advanced Hardware Programming Learning Kit</a></li>
+                    <li id="Cat_490"><a href="https://osoyoo.com/zh/category/osoyoo-kit/osoyoo-basic-kit/" onmouseover="AmAllCategory('2','490');">OSOYOO Basic Programming Learning Kit </a></li>
+                    <li id="Cat_467"><a href="https://osoyoo.com/zh/category/osoyoo-kit/arduino-iot/" onmouseover="AmAllCategory('2','467');">OSOYOO Cayenne IOT Learning Kit </a></li>
+                    <li id="Cat_697"><a href="https://osoyoo.com/zh/category/osoyoo-kit/osoyoo-graphical-programming-kit/" onmouseover="AmAllCategory('2','697');">OSOYOO Graphical Programming Kit </a></li>
+                    <li id="Cat_692"><a href="https://osoyoo.com/zh/category/osoyoo-kit/osoyoo-starter-kit/" onmouseover="AmAllCategory('2','692');">Osoyoo Hardware Programming Starter Kit</a></li>
+                    <li id="Cat_655"><a href="https://osoyoo.com/zh/category/osoyoo-kit/arduino-yun-iot-smarthome-kit/" onmouseover="AmAllCategory('2','655');">OSOYOO IoT Smarthome Kit V0.1</a></li>
+                    <li id="Cat_714"><a href="https://osoyoo.com/zh/category/osoyoo-kit/osoyoo-pnp-kit-for-arduino/" onmouseover="AmAllCategory('2','714');">OSOYOO PNP Programming Learning Kit </a></li>
+                    <li id="Cat_516"><a href="https://osoyoo.com/zh/category/osoyoo-kit/osoyoo-rfid-kit/" onmouseover="AmAllCategory('2','516');">OSOYOO RFID Programming Learning Kit </a></li>
+                    <li id="Cat_694"><a href="https://osoyoo.com/zh/category/osoyoo-kit/osoyoo-sensor-modules-kit-for-arduino/" onmouseover="AmAllCategory('2','694');">Osoyoo Sensor Modules Kit </a></li>
+                    <li id="Cat_543"><a href="https://osoyoo.com/zh/category/osoyoo-kit/osoyoo-sewing-kit/" onmouseover="AmAllCategory('2','543');">OSOYOO Sewing Programming Learning Kit </a></li>
+                    <li id="Cat_706"><a href="https://osoyoo.com/zh/category/osoyoo-kit/osoyoo-smart-home-iot-kit/" onmouseover="AmAllCategory('2','706');">OSOYOO Smart Home IoT Kit</a></li>
+                    <li id="Cat_492"><a href="https://osoyoo.com/zh/category/osoyoo-kit/osoyoo-ultimate-kit/" onmouseover="AmAllCategory('2','492');">OSOYOO Ultimate Hardware Programming kit</a></li>
+                    <li id="Cat_693"><a href="https://osoyoo.com/zh/category/osoyoo-kit/osoyoo-v3-advanced-learning-kits/" onmouseover="AmAllCategory('2','693');">OSOYOO v3 advanced learning kits</a></li>
+               </ul>
+               <ul name="AmSub_1" id="AmSub_1_682" class="CategoryList">
+                    <li id="Cat_663"><a href="https://osoyoo.com/zh/category/osoyoo-robot-car-kit/balance-car-arduinoraspi-kit/" onmouseover="AmAllCategory('2','663');">Balance car kit</a></li>
+                    <li id="Cat_707"><a href="https://osoyoo.com/zh/category/osoyoo-robot-car-kit/m1-0-mecanum-wheel-metal-chassis-robotic/" onmouseover="AmAllCategory('2','707');">M1.0 Mecanum Wheel Metal Chassis Robotic</a></li>
+                    <li id="Cat_741"><a href="https://osoyoo.com/zh/category/osoyoo-robot-car-kit/m2-0-mecanum-wheel-metal-chassis-robotic/" onmouseover="AmAllCategory('2','741');">M2.0 Mecanum Wheel Metal Chassis Robotic</a></li>
+                    <li id="Cat_703"><a href="https://osoyoo.com/zh/category/osoyoo-robot-car-kit/mecanum-wheel-car-kit/" onmouseover="AmAllCategory('2','703');">Mars Explorer Mecanum Wheel Robot Kit</a></li>
+                    <li id="Cat_518"><a href="https://osoyoo.com/zh/category/osoyoo-robot-car-kit/arduino-tank-car-kit/" onmouseover="AmAllCategory('2','518');">Tank Car Kit V1.0</a></li>
+                    <li id="Cat_712"><a href="https://osoyoo.com/zh/category/osoyoo-robot-car-kit/tank-car-kit-v2-0/" onmouseover="AmAllCategory('2','712');">Tank Car Kit V2.0 </a></li>
+                    <li id="Cat_499"><a href="https://osoyoo.com/zh/category/osoyoo-robot-car-kit/2wd-robot-car-starter-kit/" onmouseover="AmAllCategory('2','499');">2WD Robot Car Starter Kit</a></li>
+                    <li id="Cat_747"><a href="https://osoyoo.com/zh/category/osoyoo-robot-car-kit/blue-acrylic-mecanum-wheel-robotic/" onmouseover="AmAllCategory('2','747');">Blue Acrylic Mecanum Wheel Robotic</a></li>
+                    <li id="Cat_710"><a href="https://osoyoo.com/zh/category/osoyoo-robot-car-kit/model-3-v2-0-robot-car/" onmouseover="AmAllCategory('2','710');">Model-3 V2.0 Robot Car</a></li>
+                    <li id="Cat_702"><a href="https://osoyoo.com/zh/category/osoyoo-robot-car-kit/osoyoo-model-3-robot-learning-kit/" onmouseover="AmAllCategory('2','702');">OSOYOO Model-3 Robot Learning Kit</a></li>
+                    <li id="Cat_746"><a href="https://osoyoo.com/zh/category/osoyoo-robot-car-kit/osoyoo-model-t-robot-car/" onmouseover="AmAllCategory('2','746');">OSOYOO Model-T Robot Car</a></li>
+                    <li id="Cat_695"><a href="https://osoyoo.com/zh/category/osoyoo-robot-car-kit/osoyoo-robot-car-starter-kit-tutorial/" onmouseover="AmAllCategory('2','695');">OSOYOO Robot Car Starter Kit Tutorial</a></li>
+                    <li id="Cat_739"><a href="https://osoyoo.com/zh/category/osoyoo-robot-car-kit/osoyoo-servo-steering-car-v3-0-for-arduino-mega2560/" onmouseover="AmAllCategory('2','739');">OSOYOO Servo Steering Car V3.0 for Arduino MEGA2560</a></li>
+                    <li id="Cat_717"><a href="https://osoyoo.com/zh/category/osoyoo-robot-car-kit/p3-servo-steering-robot-car/" onmouseover="AmAllCategory('2','717');">P3 Servo Steering Robot Car</a></li>
+                    <li id="Cat_721"><a href="https://osoyoo.com/zh/category/osoyoo-robot-car-kit/sg90-servo-steering-robot-car/" onmouseover="AmAllCategory('2','721');">SG90 Servo Steering Robot Car</a></li>
+                    <li id="Cat_684"><a href="https://osoyoo.com/zh/category/osoyoo-robot-car-kit/v2-0-robot-car-kit/" onmouseover="AmAllCategory('2','684');">V2.0 Robot Car kit</a></li>
+                    <li id="Cat_709"><a href="https://osoyoo.com/zh/category/osoyoo-robot-car-kit/v2-1-robot-car-kit/" onmouseover="AmAllCategory('2','709');">V2.1 Robot car kit</a></li>
+               </ul>
+               <ul name="AmSub_1" id="AmSub_1_20" class="CategoryList">
+                    <li id="Cat_26"><a href="https://osoyoo.com/zh/category/sensors/breadboard/" onmouseover="AmAllCategory('2','26');">Breadboard</a></li>
+                    <li id="Cat_27"><a href="https://osoyoo.com/zh/category/sensors/buzzer/" onmouseover="AmAllCategory('2','27');">Buzzer</a></li>
+                    <li id="Cat_28"><a href="https://osoyoo.com/zh/category/sensors/led/" onmouseover="AmAllCategory('2','28');">LED</a></li>
+                    <li id="Cat_23"><a href="https://osoyoo.com/zh/category/sensors/resistor/" onmouseover="AmAllCategory('2','23');">Resistor</a></li>
+                    <li id="Cat_700"><a href="https://osoyoo.com/zh/category/sensors/screen/" onmouseover="AmAllCategory('2','700');">Screen</a></li>
+                    <li id="Cat_146"><a href="https://osoyoo.com/zh/category/sensors/sensors-sensors/" onmouseover="AmAllCategory('2','146');">Sensors</a></li>
+                    <li id="Cat_751"><a href="https://osoyoo.com/zh/category/sensors/temperature-sensor/" onmouseover="AmAllCategory('2','751');">Temperature sensor</a></li>
+                    <li id="Cat_24"><a href="https://osoyoo.com/zh/category/sensors/usb-cable/" onmouseover="AmAllCategory('2','24');">USB cable</a></li>
+                    <li id="Cat_25"><a href="https://osoyoo.com/zh/category/sensors/wires/" onmouseover="AmAllCategory('2','25');">Wires</a></li>
+               </ul>
+               <ul name="AmSub_1" id="AmSub_1_744" class="CategoryList">
+                    <li id="Cat_745"><a href="https://osoyoo.com/zh/category/single-board/ltg-nano-for-arduino/" onmouseover="AmAllCategory('2','745');">LTG-Nano for Arduino</a></li>
+                    <li id="Cat_749"><a href="https://osoyoo.com/zh/category/single-board/nodemcu/" onmouseover="AmAllCategory('2','749');">NodeMCU</a></li>
+               </ul>
+               <ul name="AmSub_1" id="AmSub_1_5" class="CategoryList">
+                    <li id="Cat_22"><a href="https://osoyoo.com/zh/category/tutorial-ebook/basic-tutorial/" onmouseover="AmAllCategory('2','22');">Basic Tutorial about Arduino</a></li>
+                    <li id="Cat_685"><a href="https://osoyoo.com/zh/category/tutorial-ebook/graphical-programming-tutorial-for-arduino/" onmouseover="AmAllCategory('2','685');">Graphical Programming Tutorial Serie A</a></li>
+                    <li id="Cat_4"><a href="https://osoyoo.com/zh/category/tutorial-ebook/diy-parts/" onmouseover="AmAllCategory('2','4');">Parts &amp; Projects for Arduino Open Source IDE</a></li>
+               </ul>
+               <ul name="AmSub_1" id="AmSub_1_733" class="CategoryList">
+                    <li id="Cat_736"><a href="https://osoyoo.com/zh/category/building-blocks/osoyoo-building-block-diy-programming-kit/" onmouseover="AmAllCategory('2','736');">OSOYOO Building Block DIY Programming Kit</a></li>
+                    <li id="Cat_734"><a href="https://osoyoo.com/zh/category/building-blocks/arduino-building-blocks/" onmouseover="AmAllCategory('2','734');">OSOYOO Building Blocks</a></li>
+                    <li id="Cat_740"><a href="https://osoyoo.com/zh/category/building-blocks/osoyoo-building-robot-car/" onmouseover="AmAllCategory('2','740');">OSOYOO Building Robot car</a></li>
+               </ul>
+               <ul name="AmSub_1" id="AmSub_1_672" class="CategoryList">
+                    <li id="Cat_673"><a href="https://osoyoo.com/zh/category/microbit/microbit-basic-tutorial/" onmouseover="AmAllCategory('2','673');">Micro:bit Basic Tutorial</a></li>
+                    <li id="Cat_713"><a href="https://osoyoo.com/zh/category/microbit/microbit-robot/" onmouseover="AmAllCategory('2','713');">Micro:bit Robot</a></li>
+                    <li id="Cat_677"><a href="https://osoyoo.com/zh/category/microbit/microbit-starter-kit/" onmouseover="AmAllCategory('2','677');">Micro:bit Starter Kit</a></li>
+                    <li id="Cat_715"><a href="https://osoyoo.com/zh/category/microbit/microbit-robot-car-v2/" onmouseover="AmAllCategory('2','715');">Microbit Robot Car V2</a></li>
+                    <li id="Cat_691"><a href="https://osoyoo.com/zh/category/microbit/osoyoo-sensor-for-micro-bit/" onmouseover="AmAllCategory('2','691');">OSOYOO Sensor for Micro bit</a></li>
+               </ul>
+               <ul name="AmSub_1" id="AmSub_1_730" class="CategoryList">
+                    <li id="Cat_731"><a href="https://osoyoo.com/zh/category/raspberry-pi-pico/pico-graphic-programming/" onmouseover="AmAllCategory('2','731');">Pico Graphic Programming</a></li>
+                    <li id="Cat_743"><a href="https://osoyoo.com/zh/category/raspberry-pi-pico/pico-robot-car-raspberry-pi-pico/" onmouseover="AmAllCategory('2','743');">Pico-Robot-Car</a></li>
+               </ul>
+               <ul name="AmSub_1" id="AmSub_1_7" class="CategoryList">
+                    <li id="Cat_131"><a href="https://osoyoo.com/zh/category/%e6%b5%8b%e8%af%95/meeting/" onmouseover="AmAllCategory('2','131');">Meeting</a></li>
+               </ul>
+          </div>
+          <div name="AmLayer" id="AmLayer_2" class="AmLayer">
+               <ul name="AmSub_2" id="AmSub_2_663" class="CategoryList">
+                    <li id="Cat_698"><a href="https://osoyoo.com/zh/category/osoyoo-robot-car-kit/balance-car-arduinoraspi-kit/balance-car/" onmouseover="AmAllCategory('3','698');">Balance Car</a></li>
+               </ul>
+          </div>
+          </div>	
+     </div>
+</div>
+
+
+
+
+</div>
+
+
+<span id="UrlHere">
+<div itemscope itemtype="http://schema.org/WebPage" id="crumbs">Location: <a itemprop="breadcrumb" href="https://osoyoo.com/zh">Home</a> » <a itemprop="breadcrumb" href="https://osoyoo.com/zh/category/tutorial-examples/">Tutorial &amp; Examples</a> » <span class="current">Learn Coding with Arduino IDE – VL53L0X Time-of-Flight Distance Sensor</span></div></span>
+
+<div id="ContentBody">
+
+<h1>Learn Coding with Arduino IDE – VL53L0X Time-of-Flight Distance Sensor</h1><div class="PostMeta">
+<span class="Time">Post Time: 2019-04-21 23:04:17</span>
+Category: <a class="category" href="https://osoyoo.com/zh/category/tutorial-examples/">Tutorial &amp; Examples</a>
+</div>
+<div class="PostContent">
+<p>This sensor is a carrier/breakout board for ST’s VL53L0X laser-ranging sensor, which measures the range to a target object <strong>up to 2 m</strong> away. The VL53L0X uses time-of-flight measurements of infrared pulses for ranging, allowing it to give accurate results independent of the target’s color and surface. Distance measurements can be read through a digital I²C interface. The board has a 2.8 V linear regulator and integrated level-shifters that allow it to work over an input voltage range of 2.6 V to 5.5 V, and the 0.1″ pin spacing makes it easy to use with standard solderless breadboards and 0.1″ perfboards.</p>
+<h1>Introduction</h1>
+<p>Time of Flight Distance Sensor-VL53L0X is a high speed, high accurary and long range distance sensor based on VL53L0X.</p>
+<p>The VL53L0X is a new generation Time-of-Flight (ToF) laser-ranging module housed in the smallest package on the market today, providing accurate distance measurement whatever the target reflectances unlike conventional technologies. It can measure absolute distances up to 2m, setting a new benchmark in ranging performance levels, opening the door to various new applications.</p>
+<p>The VL53L0X integrates a leading-edge SPAD array (Single Photon Avalanche Diodes) and embeds ST’s second generation FlightSenseTM patented technology.</p>
+<p>The VL53L0X’s 940 nm VCSEL emitter (VerticalCavity Surface-Emitting Laser), is totally invisible to the human eye, coupled with internal physical infrared filters, it enables longer ranging distances, higher immunity to ambient light, and better robustness to cover glass optical crosstalk.<img decoding="async" class=" aligncenter" src="https://osoyoo.com/picture/Modules/2018004500.jpg" width="750" height="750" /><span style="font-size: 16px;">Hardware Overview</span></p>
+<p>First let&#8217;s check out some of the characteristics of the <a href="https://cdn.sparkfun.com/assets/b/f/2/9/8/VL53L1X_Datasheet.pdf">VL53L1X sensor</a> we&#8217;re dealing with, so we know what to expect out of the board.</p>
+<table class="table table-hover table-striped table-bordered">
+<tbody>
+<tr>
+<th class="tg-baqh"><b>Characteristic</b></th>
+<th class="tg-baqh"><b>Range</b></th>
+</tr>
+<tr>
+<td class="tg-baqh">Operating Voltage</td>
+<td class="tg-baqh"><b>2.6V-3.5V</b></td>
+</tr>
+<tr>
+<td class="tg-baqh">Power Consumption</td>
+<td class="tg-baqh">20 mW @10Hz</td>
+</tr>
+<tr>
+<td class="tg-baqh">Measurement Range</td>
+<td class="tg-baqh">~40mm to 4,000mm</td>
+</tr>
+<tr>
+<td class="tg-baqh">Resolution</td>
+<td class="tg-baqh">+/-1mm</td>
+</tr>
+<tr>
+<td class="tg-baqh">Light Source</td>
+<td class="tg-baqh">Class 1 940nm VCSEL</td>
+</tr>
+<tr>
+<td class="tg-baqh">I<sup>2</sup>C Address</td>
+<td class="tg-baqh">0x29</td>
+</tr>
+<tr>
+<td class="tg-baqh">Field of View</td>
+<td class="tg-baqh">15° &#8211; 27°</td>
+</tr>
+<tr>
+<td class="tg-baqh">Max Read Rate</td>
+<td class="tg-baqh">50Hz</td>
+</tr>
+</tbody>
+</table>
+<h3>Specifications</h3>
+<ul>
+<li>Dimensions: 0.5″ × 0.7″ × 0.085″ (13 mm × 18 mm × 2 mm)</li>
+<li>Weight without header pins: 0.5 g (0.02 oz)</li>
+<li>Operating voltage: 2.6 V to 5.5 V</li>
+<li>Supply current: 10 mA (typical average during active ranging)
+<ul>
+<li>Varies with configuration, target, and environment. Peak current can reach 40 mA.</li>
+</ul>
+</li>
+<li>Output format (I²C): 16-bit distance reading (in millimeters)</li>
+<li>Distance measuring range: up to 2 m (6.6 ft); see the graph at the right for typical ranging performance.
+<ul>
+<li>Effective range depends on configuration, target, and environment.</li>
+<li>The datasheet does not specify a minimum range, but in our experience, the effective limit is about 3 cm.</li>
+</ul>
+</li>
+</ul>
+<h3></h3>
+<h3 class="clear">Pinout</h3>
+<table class="specifications center">
+<tbody>
+<tr>
+<th>PIN</th>
+<th>Description</th>
+</tr>
+<tr class="odd">
+<td>VDD</td>
+<td>Regulated 2.8 V <strong>output</strong>. Almost 150 mA is available to power external components. (If you want to bypass the internal regulator, you can instead use this pin as a 2.8 V input with VIN disconnected.)</td>
+</tr>
+<tr>
+<td>VIN</td>
+<td>This is the main 2.6 V to 5.5 V power supply connection. The SCL and SDA level shifters pull the I²C lines high to this level.</td>
+</tr>
+<tr class="odd">
+<td>GND</td>
+<td>The ground (0 V) connection for your power supply. Your I²C control source must also share a common ground with this board.</td>
+</tr>
+<tr>
+<td>SDA</td>
+<td>Level-shifted I²C data line: HIGH is VIN, LOW is 0 V</td>
+</tr>
+<tr class="odd">
+<td>SCL</td>
+<td>Level-shifted I²C clock line: HIGH is VIN, LOW is 0 V</td>
+</tr>
+<tr>
+<td>XSHUT</td>
+<td>This pin is an active-low shutdown input; the board pulls it up to VDD to enable the sensor by default. Driving this pin low puts the sensor into hardware standby. <em>This input is not level-shifted.</em></td>
+</tr>
+<tr class="odd">
+<td>GPIO1</td>
+<td>Programmable interrupt output (VDD logic level). <em>This output is not level-shifted.</em></td>
+</tr>
+</tbody>
+</table>
+<h3>Schematic diagram</h3>
+<table class="picture_with_caption center wide">
+<tbody>
+<tr>
+<td><a class="noscript-fallback" href="https://a.pololu-files.com/picture/0J7229.1200.png?2ff74fc375fe2df94ab4028945a0adf5" target="_blank" rel="noopener noreferrer"><img decoding="async" id="" class="wide zoomable aligncenter" src="https://a.pololu-files.com/picture/0J7229.600.jpg?2ff74fc375fe2df94ab4028945a0adf5" alt="" data-gallery-pictures="[{" data-picture-id="0J7229" data-picture-longest_side="1200" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>The above schematic shows the additional components the carrier board incorporates to make the VL53L0 easier to use, including the voltage regulator that allows the board to be powered from a 2.6 V to 5.5 V supply and the level-shifter circuit that allows for I²C communication at the same logic voltage level as VIN. This schematic is also available as a <a href="https://www.pololu.com/file/0J1188/vl53l0x-and-vl53l1x-time-of-flight-sensor-schematic.pdf">downloadable PDF</a> (110k pdf).</p>
+<h2 id="applications">Applications</h2>
+<ul>
+<li>User detection for personal computers/laptops/tablets and IoT (energy saving)</li>
+<li>Robotics (obstacle detection)</li>
+<li>White goods (hand detection in automatic faucets, soap dispensers etc.)</li>
+<li>1D gesture recognition.</li>
+<li>Laser assisted autofocus. Enhances and speeds up camera autofocus system performance, especially in difficult scenes (low light levels, low contrast) or fast moving video mode.</li>
+</ul>
+<h2>Getting started with VL53L0X</h2>
+<p>in this tutorial we are going to see how to interface the VL53L0X sensor with arduino. The VL53L0X is a I2C sensor. That means it uses the two I2C data/clock wires available on most microcontrollers, and can share those pins with other sensors as long as they don’t have an address collision.The VL53L0X is a <em>Time of Flight</em> distance sensor like no other you’ve used! The sensor contains a very tiny invisible laser source, and a matching sensor. let’s start our tutorial</p>
+<h3>Step1: Hardware required</h3>
+<ul>
+<li>Arduino Board</li>
+<li>VL53L0x module</li>
+<li>jumper wires</li>
+</ul>
+<h3>Step2: Connecting the Hardware</h3>
+<ul>
+<li>Connect <strong>Vin</strong> to the power supply, 3-5V is fine. Use the same voltage that the microcontroller logic is based off of. For most Arduinos, that is 5V</li>
+<li>Connect <strong>GND </strong>to common power/data ground</li>
+<li>Connect the <strong>SCL</strong> pin to the I2C clock <strong>SCL</strong> pin on your Arduino. On an UNO &amp; ‘328 based Arduino, this is also known as <strong>A5</strong>, on a Mega it is also known as <strong>digital 21</strong> and on a Leonardo/Micro, <strong>digital 3</strong></li>
+<li>Connect the <strong>SDA</strong> pin to the I2C data <strong>SDA </strong>pin on your Arduino. On an UNO &amp; ‘328 based Arduino, this is also known as <strong>A4</strong>, on a Mega it is also known as <strong>digital 20</strong> and on a Leonardo/Micro, <strong>digital 2</strong></li>
+</ul>
+<p>As shown below</p>
+<p><img decoding="async" loading="lazy" class="" src="https://github.com/osoyoo/driver/blob/master/VL53L0x.png?raw=true" alt="null" width="761" height="510" /></p>
+<div class="row-fluid build-text">
+<h1>Download Adafruit_VL53L0X</h1>
+<p>To begin reading sensor data, you will need to install the<a href="https://github.com/adafruit/Adafruit_VL53L0X">Adafruit_VL53L0X Library</a>.</p>
+<p>The easiest way to do that is to open up the <strong>Manage Libraries&#8230;</strong>menu in the Arduino IDE</p>
+</div>
+<div class="row-fluid build-image"><a href="https://learn.adafruit.com/assets/49468"><img decoding="async" class="49468-asset img-responsive aligncenter" src="https://cdn-learn.adafruit.com/assets/assets/000/049/468/medium800/adafruit_products_managelib.png?1513741821" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 65vw, (max-width: 1365px) 47vw, 750px" srcset="https://cdn-learn.adafruit.com/assets/assets/000/049/468/medium260/adafruit_products_managelib.png?1513741821 260w, https://cdn-learn.adafruit.com/assets/assets/000/049/468/medium640/adafruit_products_managelib.png?1513741821 640w, https://cdn-learn.adafruit.com/assets/assets/000/049/468/medium800/adafruit_products_managelib.png?1513741821 800w, https://cdn-learn.adafruit.com/assets/assets/000/049/468/large1024/adafruit_products_managelib.png?1513741821 1024w" alt="adafruit_products_managelib.png" /></a></div>
+<div class="row-fluid build-text">
+<p>Then search for <strong>Adafruit VL53L0X</strong> and click <strong>Install</strong></p>
+</div>
+<div class="row-fluid build-image"><a href="https://learn.adafruit.com/assets/49469"><img decoding="async" class="49469-asset img-responsive aligncenter" src="https://cdn-learn.adafruit.com/assets/assets/000/049/469/medium800/adafruit_products_vl53.png?1513741926" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 65vw, (max-width: 1365px) 47vw, 750px" srcset="https://cdn-learn.adafruit.com/assets/assets/000/049/469/medium260/adafruit_products_vl53.png?1513741926 260w, https://cdn-learn.adafruit.com/assets/assets/000/049/469/medium640/adafruit_products_vl53.png?1513741926 640w, https://cdn-learn.adafruit.com/assets/assets/000/049/469/medium800/adafruit_products_vl53.png?1513741926 800w, https://cdn-learn.adafruit.com/assets/assets/000/049/469/large1024/adafruit_products_vl53.png?1513741926 1024w" alt="adafruit_products_vl53.png" /></a></div>
+<div class="row-fluid build-text">
+<p>We also have a great tutorial on Arduino library installation at:<br />
+<a title="Link: http://learn.adafruit.com/adafruit-all-about-arduino-libraries-install-use" href="http://learn.adafruit.com/adafruit-all-about-arduino-libraries-install-use">http://learn.adafruit.com/adafruit-all-about-arduino-libraries-install-use</a></p>
+</div>
+<div class="row-fluid build-text">
+<h1><span id="load-demo-4-9" class="anchor-link-target"></span><span id="load-demo" class="anchor-link-target"></span>Load Demo</h1>
+<p>Open up <strong>File-&gt;Examples-&gt;Adafruit_VL53L0X</strong><strong>-&gt;vl53l0x </strong>and upload to your Arduino wired up to the sensor</p>
+</div>
+<div class="row-fluid build-image"><a href="https://learn.adafruit.com/assets/37554"><img decoding="async" class="37554-asset img-responsive aligncenter" src="https://cdn-learn.adafruit.com/assets/assets/000/037/554/medium800/adafruit_products_demo.png?1479938471" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 65vw, (max-width: 1365px) 47vw, 750px" srcset="https://cdn-learn.adafruit.com/assets/assets/000/037/554/medium260/adafruit_products_demo.png?1479938471 260w, https://cdn-learn.adafruit.com/assets/assets/000/037/554/medium640/adafruit_products_demo.png?1479938471 640w, https://cdn-learn.adafruit.com/assets/assets/000/037/554/medium800/adafruit_products_demo.png?1479938471 800w, https://cdn-learn.adafruit.com/assets/assets/000/037/554/large1024/adafruit_products_demo.png?1479938471 1024w" alt="adafruit_products_demo.png" /></a></div>
+<div class="row-fluid build-text">
+<p>Thats it! Now open up the serial terminal window at 115200 speed to begin the test.</p>
+</div>
+<div class="row-fluid build-image"><a href="https://learn.adafruit.com/assets/37555"><img decoding="async" class="37555-asset img-responsive aligncenter" src="https://cdn-learn.adafruit.com/assets/assets/000/037/555/medium800/adafruit_products_ranging.png?1479938501" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 65vw, (max-width: 1365px) 47vw, 750px" srcset="https://cdn-learn.adafruit.com/assets/assets/000/037/555/medium260/adafruit_products_ranging.png?1479938501 260w, https://cdn-learn.adafruit.com/assets/assets/000/037/555/medium640/adafruit_products_ranging.png?1479938501 640w, https://cdn-learn.adafruit.com/assets/assets/000/037/555/medium800/adafruit_products_ranging.png?1479938501 800w, https://cdn-learn.adafruit.com/assets/assets/000/037/555/large1024/adafruit_products_ranging.png?1479938501 1024w" alt="adafruit_products_ranging.png" /></a></div>
+<div class="row-fluid build-text">
+<p>Move your hand up and down to read the sensor data. Note that when nothing is detected, it will say the reading is out of range</p>
+</div>
+<div class="element row-fluid build-alert alert-warning">
+<div class="alert"><i class="fa fa-exclamation-circle"></i>Don&#8217;t forget to remove the protective plastic cover from the sensor before using!</div>
+</div>
+<div class="row-fluid build-text">
+<h1><span id="connecting-multiple-sensors-4-15" class="anchor-link-target"></span><span id="connecting-multiple-sensors" class="anchor-link-target"></span>Connecting Multiple Sensors</h1>
+<p>I2C only allows one address-per-device so you have to make sure each I2C device has a unique address. The default address for the VL53L0X is <strong>0x29</strong> but you <em>can</em> change this in software.</p>
+<p>To set the new address you can do it one of two ways. During initialization, instead of calling lox.begin(), call <code>lox.begin(0x30)</code>to set the address to 0x30. Or you can, later, call <code>lox.setAddress(0x30)</code> at any time.</p>
+<p>The good news is its easy to change, the annoying part is each <em>other</em> sensor has to be in shutdown. You can shutdown each sensor by wiring up to the <strong>XSHUT</strong> pin to a microcontroller pin. Then perform something like this pseudo-code:</p>
+<ol>
+<li>Reset all sensors by setting all of their XSHUT pins low for delay(10), then set all XSHUT high to bring out of reset</li>
+<li>Keep sensor #1 awake by keeping XSHUT pin high</li>
+<li>Put all other sensors into shutdown by pulling XSHUT pins low</li>
+<li>Initialize sensor #1 with lox.begin(<em>new_i2c_address</em>) Pick any number but 0x29 and it must be under 0x7F. Going with 0x30 to 0x3F is probably OK.</li>
+<li>Keep sensor #1 awake, and now bring sensor #2 out of reset by setting its XSHUT pin high.</li>
+<li>Initialize sensor #2 with lox.begin(<em>new_i2c_address</em>) Pick any number but 0x29 and whatever you set the first sensor to</li>
+<li>Repeat for each sensor, turning each one on, setting a unique address.</li>
+</ol>
+<p>Note you must do this <em>every</em> time you turn on the power, the addresses are not permanent!</p>
+</div>
+</div>
+
+<div id="AmCustomFields">
+     <p class="Line">
+     </p>
+     <p class="Line">
+     <span class="TitleCommon">
+          DownLoad Url
+     </span>
+     <a class="ValueUrl" href="osoyoo.com" title="DownLoad Url">
+          osoyoo.com
+     </a>
+     </p>
+</div>
+</div>
+
+
+
+<div id="comments">
+
+	
+<div class="clear"></div>
+
+	<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/zh/2019/04/21/arduino-lesson-vl53l0x-time-of-flight-distance-sensor/#respond" style="display:none;">Cancel reply</a></small></h3><p class="must-log-in">You must be <a href="https://osoyoo.com/wp-login.php?redirect_to=https%3A%2F%2Fosoyoo.com%2Fzh%2F2019%2F04%2F21%2Farduino-lesson-vl53l0x-time-of-flight-distance-sensor%2F">logged in</a> to post a comment.</p>	</div><!-- #respond -->
+	</div>
+
+
+
+
+<div id="PageFooterBg">
+     <div id="PageFooterBox">
+          <img class="Logo" src="https://osoyoo.com/wp-content/themes/bombax/AmImages/Logo.gif">
+		  <div class="About">
+
+</br>
+Address:
+</br>
+E-mail:
+</br>
+Tel:	  
+		  </div>
+		  <div class="FooterNav">
+		  </div>
+		  
+          <p class="CopyRight"><a href="/privacy">Privacy Policy</a> © 2009-2017 Osoyoo.com</p>
+     </div>
+</div>
+
+<!--
+<script type="text/javascript"> var infolinks_pid = 3324405; var infolinks_wsid = 0; </script> <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
+--></body>
+</html>
