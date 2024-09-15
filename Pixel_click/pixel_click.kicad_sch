@@ -4956,7 +4956,7 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_MEC_5G"
+		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -4972,7 +4972,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SW_MEC_5G"
+			(property "Value" "SW_Push"
 				(at 0 -1.524 0)
 				(effects
 					(font
@@ -4989,7 +4989,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(property "Datasheet" "~"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -4998,7 +4998,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5016,16 +5016,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SW*MEC*5G*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_MEC_5G_0_1"
+			(symbol "SW_Push_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -5075,7 +5066,7 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "A"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5093,27 +5084,7 @@
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_MEC_5G_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54) hide
-					(name "A"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5121,24 +5092,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54) hide
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6783,6 +6736,16 @@
 	)
 	(polyline
 		(pts
+			(xy 72.39 109.22) (xy 72.39 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01221106-27df-4fa2-b4f2-6240d218301d")
+	)
+	(polyline
+		(pts
 			(xy 12.7 93.98) (xy 12.7 14.605)
 		)
 		(stroke
@@ -6940,6 +6903,16 @@
 			(type default)
 		)
 		(uuid "0df62a7c-a9f1-4c09-950e-271c3406b013")
+	)
+	(polyline
+		(pts
+			(xy 71.12 14.605) (xy 71.12 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fd81840-2e03-4144-8f31-28ba87254efa")
 	)
 	(wire
 		(pts
@@ -7123,16 +7096,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 187.96) (xy 71.12 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ef07f67-9f6a-4b2c-80c2-c1f0f734895a")
-	)
-	(wire
-		(pts
 			(xy 204.47 121.92) (xy 204.47 132.08)
 		)
 		(stroke
@@ -7161,6 +7124,16 @@
 		)
 		(uuid "22b9365c-87d7-4a1d-84b6-28aabfd101dd")
 	)
+	(polyline
+		(pts
+			(xy 71.12 76.2) (xy 71.12 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22fb6b27-ccf9-457a-ada2-d9a458d5693e")
+	)
 	(wire
 		(pts
 			(xy 137.16 58.42) (xy 137.16 50.8)
@@ -7173,7 +7146,7 @@
 	)
 	(polyline
 		(pts
-			(xy 73.66 93.98) (xy 12.7 93.98)
+			(xy 71.12 93.98) (xy 12.7 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7250,6 +7223,16 @@
 			(type default)
 		)
 		(uuid "29d6ebc3-c18b-4159-bccc-681e5a50d252")
+	)
+	(polyline
+		(pts
+			(xy 71.12 93.98) (xy 71.12 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2acfdda0-8107-4a6c-8bbe-b0286679c2e4")
 	)
 	(wire
 		(pts
@@ -7520,6 +7503,16 @@
 			(type default)
 		)
 		(uuid "43379da3-c711-402a-8de4-5f69f0673f86")
+	)
+	(polyline
+		(pts
+			(xy 73.66 109.22) (xy 72.39 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4571af06-b8fc-4206-8e21-c1503438ed43")
 	)
 	(wire
 		(pts
@@ -8010,6 +8003,16 @@
 			(type default)
 		)
 		(uuid "64b679dc-ea40-4062-886f-6349b93d5ef0")
+	)
+	(polyline
+		(pts
+			(xy 72.39 93.98) (xy 71.12 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64d5c814-55e6-4dcc-8154-82e47767a897")
 	)
 	(wire
 		(pts
@@ -8683,7 +8686,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 116.84) (xy 106.68 124.46)
+			(xy 109.22 116.84) (xy 109.22 124.46)
 		)
 		(stroke
 			(width 0)
@@ -8873,6 +8876,16 @@
 	)
 	(polyline
 		(pts
+			(xy 73.66 132.08) (xy 75.565 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "964ba483-c083-4060-bb15-2768bbca0591")
+	)
+	(polyline
+		(pts
 			(xy 73.66 185.42) (xy 73.66 198.12)
 		)
 		(stroke
@@ -8980,16 +8993,6 @@
 			(type default)
 		)
 		(uuid "9e4e7421-77ea-4e92-8ca0-057019f07719")
-	)
-	(polyline
-		(pts
-			(xy 73.66 71.12) (xy 73.66 14.605)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f18fa88-1791-44e6-b591-57c8284f6de8")
 	)
 	(wire
 		(pts
@@ -9491,6 +9494,16 @@
 		)
 		(uuid "bc4d7994-9e36-48e2-acd2-8469eb585563")
 	)
+	(polyline
+		(pts
+			(xy 73.66 132.08) (xy 73.66 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bca881cb-7eb7-466b-ae82-b1af04d93d25")
+	)
 	(wire
 		(pts
 			(xy 193.04 132.08) (xy 204.47 132.08)
@@ -9500,16 +9513,6 @@
 			(type default)
 		)
 		(uuid "bd2368c8-4c64-48e6-b46d-c0c2acb160c2")
-	)
-	(polyline
-		(pts
-			(xy 73.66 160.02) (xy 73.66 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd622ead-b9e1-4e89-b881-ac0a2e4a0aeb")
 	)
 	(wire
 		(pts
@@ -9673,7 +9676,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 58.42) (xy 78.74 58.42)
+			(xy 73.66 58.42) (xy 78.74 58.42)
 		)
 		(stroke
 			(width 0)
@@ -9941,6 +9944,16 @@
 		)
 		(uuid "db3f8188-0420-49cc-9f07-2cf58f03a883")
 	)
+	(polyline
+		(pts
+			(xy 75.565 109.22) (xy 75.565 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddbee38a-fd8c-4891-8cd0-640df4960359")
+	)
 	(wire
 		(pts
 			(xy 40.64 38.1) (xy 40.64 40.64)
@@ -10193,6 +10206,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 187.96) (xy 71.12 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f06bb7a1-b961-4355-9158-6bc7aecc4fe5")
+	)
+	(wire
+		(pts
 			(xy 124.46 152.4) (xy 124.46 154.94)
 		)
 		(stroke
@@ -10417,6 +10440,17 @@
 		)
 		(uuid "05be7bf8-923c-4ea7-9f20-c28efbc3054b")
 	)
+	(label "TX"
+		(at 139.7 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08885854-5b88-4fbd-9fc2-c9172786182d")
+	)
 	(label "SPIHD"
 		(at 66.04 104.14 0)
 		(fields_autoplaced yes)
@@ -10594,7 +10628,7 @@
 		(uuid "629649bc-e178-4509-858f-ab7ebe050e73")
 	)
 	(label "BTN_3"
-		(at 106.68 116.84 90)
+		(at 109.22 116.84 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10659,6 +10693,17 @@
 		)
 		(uuid "75ded204-f922-4a10-aaf2-7f4fbd1cab4a")
 	)
+	(label "RX"
+		(at 139.7 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "786f0851-9e4f-49f5-9379-604e11ecd677")
+	)
 	(label "VDD3P3_CPU"
 		(at 106.68 27.94 0)
 		(fields_autoplaced yes)
@@ -10714,6 +10759,17 @@
 		)
 		(uuid "8ea93d74-f870-47a1-ba81-88df4c83beae")
 	)
+	(label "BOOT"
+		(at 139.7 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "92e7a249-42e6-4a0b-b6c9-5a32dca15689")
+	)
 	(label "SPIHD"
 		(at 132.08 38.1 0)
 		(fields_autoplaced yes)
@@ -10725,7 +10781,7 @@
 		)
 		(uuid "9317094b-7401-4c1a-9766-df020de45a39")
 	)
-	(label "VDD3P3_CPU"
+	(label "VDD3P3"
 		(at 45.72 187.96 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10780,6 +10836,17 @@
 		)
 		(uuid "a44aad20-9203-4471-91dd-64bd68b97523")
 	)
+	(label "ESP_D-"
+		(at 139.7 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a9ff0b95-4452-48c3-91b4-ded169d39270")
+	)
 	(label "VDD_SPI"
 		(at 55.88 121.92 270)
 		(fields_autoplaced yes)
@@ -10802,6 +10869,17 @@
 		)
 		(uuid "b0b892ba-b758-4860-8ead-f3e5f0ec00fd")
 	)
+	(label "ESP_D+"
+		(at 139.7 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1d9dad9-2e37-408d-954f-c9955004c2bb")
+	)
 	(label "LED_DATA_3V3"
 		(at 76.2 48.26 90)
 		(fields_autoplaced yes)
@@ -10812,6 +10890,17 @@
 			(justify left bottom)
 		)
 		(uuid "b30d59a2-5f8d-4b99-9f5d-ad90c3693c3a")
+	)
+	(label "RESET"
+		(at 139.7 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b4846905-dbd9-43af-a10a-cede38845eed")
 	)
 	(label "XTAL_P"
 		(at 78.74 167.64 270)
@@ -10902,13 +10991,13 @@
 		(uuid "d8e7efd4-97ba-42c0-bdd4-7f34f076c2c0")
 	)
 	(label "VDDA"
-		(at 60.96 187.96 90)
+		(at 60.96 187.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e016677c-fa14-4d13-b3b1-7c70025ca730")
 	)
@@ -10990,7 +11079,7 @@
 		(uuid "f3e8127f-621e-478f-8a4e-5512b5e18856")
 	)
 	(label "IO_LED_2"
-		(at 76.2 58.42 270)
+		(at 73.66 58.42 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11235,6 +11324,74 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 139.7 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "059d5640-a302-4aec-b775-d8b111f697c2")
+		(property "Reference" "TP2"
+			(at 144.78 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 144.78 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f7d538e-3c22-4d17-9dd9-19e6b068f4ee")
+		)
+		(instances
+			(project ""
+				(path "/b4726934-1174-4a6e-82b0-b614e19b85be"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 53.34 147.32 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11261,7 +11418,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm"
 			(at 48.26 147.32 0)
 			(effects
 				(font
@@ -11390,7 +11547,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 48.26 27.94 0)
 			(effects
 				(font
@@ -11724,7 +11881,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 157.48 55.88 0)
 			(effects
 				(font
@@ -12039,6 +12196,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 139.7 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e10ebfb-4c4f-4614-a60b-d5dc55ae8f72")
+		(property "Reference" "SW5"
+			(at 142.24 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "btn1"
+			(at 142.24 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS"
+			(at 144.78 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 139.7 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9fe0a439-0d36-4a43-9e81-d32663135ff9")
+		)
+		(pin "1"
+			(uuid "36283bd6-67d7-4e9c-9b96-ed60d7c60dbc")
+		)
+		(instances
+			(project "pixel_click"
+				(path "/b4726934-1174-4a6e-82b0-b614e19b85be"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 223.52 139.7 0)
 		(unit 1)
@@ -12065,7 +12291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 223.52 139.7 0)
 			(effects
 				(font
@@ -12134,7 +12360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 124.46 116.84 0)
 			(effects
 				(font
@@ -12177,6 +12403,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 139.7 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f71e06e-f2d8-4b30-9c8f-91e0d8b4b24c")
+		(property "Reference" "TP4"
+			(at 144.78 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 144.78 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1c3c004-24de-4862-917f-d8b4dacfff87")
+		)
+		(instances
+			(project "pixel_click"
+				(path "/b4726934-1174-4a6e-82b0-b614e19b85be"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 204.47 119.38 0)
 		(unit 1)
@@ -12203,7 +12497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 204.47 119.38 0)
 			(effects
 				(font
@@ -12272,7 +12566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 220.98 76.2 0)
 			(effects
 				(font
@@ -12457,6 +12751,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 109.22 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1835e685-ca4a-4bf2-bf5f-7e02013f4df6")
+		(property "Reference" "SW2"
+			(at 111.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "btn3"
+			(at 111.76 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS"
+			(at 114.3 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 109.22 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8425e6f6-b262-4253-a615-dcf03c9b1b34")
+		)
+		(pin "1"
+			(uuid "2e80a607-2a0b-4b6b-aa48-a69eaa004133")
+		)
+		(instances
+			(project "pixel_click"
+				(path "/b4726934-1174-4a6e-82b0-b614e19b85be"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 142.24 116.84 270)
 		(unit 1)
@@ -12483,7 +12846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 142.24 116.84 0)
 			(effects
 				(font
@@ -12694,7 +13057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 241.3 35.56 0)
 			(effects
 				(font
@@ -12903,7 +13266,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 58.42 45.72 0)
 			(effects
 				(font
@@ -13038,7 +13401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 203.2 55.88 0)
 			(effects
 				(font
@@ -13379,7 +13742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 35.56 175.26 0)
 			(effects
 				(font
@@ -13635,6 +13998,75 @@
 			(project "pixel_click"
 				(path "/b4726934-1174-4a6e-82b0-b614e19b85be"
 					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 121.92 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2eb88b87-d373-4437-9e96-eb9117cdaa47")
+		(property "Reference" "SW3"
+			(at 124.46 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "btn2"
+			(at 124.46 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS"
+			(at 127 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 121.92 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "95281ab4-b027-4f18-ae2a-172e747df3d1")
+		)
+		(pin "1"
+			(uuid "e72b114e-2d2f-49f1-b87b-edde48d7e35a")
+		)
+		(instances
+			(project ""
+				(path "/b4726934-1174-4a6e-82b0-b614e19b85be"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -13952,7 +14384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 78.74 119.38 0)
 			(effects
 				(font
@@ -14088,7 +14520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 63.5 172.72 0)
 			(effects
 				(font
@@ -14233,7 +14665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 241.3 76.2 0)
 			(effects
 				(font
@@ -14303,7 +14735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 142.24 170.18 0)
 			(effects
 				(font
@@ -14683,7 +15115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 71.12 190.5 0)
 			(effects
 				(font
@@ -14752,7 +15184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 264.16 96.52 0)
 			(effects
 				(font
@@ -14884,7 +15316,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A"
 			(at 29.21 45.72 0)
 			(effects
 				(font
@@ -14996,32 +15428,36 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 106.68 129.54 270)
+		(lib_id "Connector:TestPoint")
+		(at 139.7 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3e0f7f47-5723-49f8-be14-d808bc7ec5bc")
-		(property "Reference" "SW2"
-			(at 109.22 127 0)
+		(fields_autoplaced yes)
+		(uuid "3f54b29f-1eba-41c2-9e23-fc7ca840da2b")
+		(property "Reference" "TP6"
+			(at 144.78 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "btn1"
-			(at 109.22 132.715 0)
+		(property "Value" "TestPoint"
+			(at 144.78 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 129.54 0)
+			(at 139.7 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15029,8 +15465,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 111.76 129.54 0)
+		(property "Datasheet" "~"
+			(at 139.7 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15038,31 +15474,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 106.68 129.54 0)
+		(property "Description" "test point"
+			(at 139.7 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "60933d8a-6ad1-4a91-bd5e-9383a4661c2a")
-		)
-		(pin "2"
-			(uuid "ad532e9a-1fc3-44d2-869c-c87217899a6a")
-		)
-		(pin "4"
-			(uuid "444ccbe5-808f-43cf-8507-341c09c0065c")
 		)
 		(pin "1"
-			(uuid "0f5a130c-f55c-46d2-ab84-adce4b58185f")
+			(uuid "a98d0c81-5747-476b-a53e-95c955ffc01a")
 		)
 		(instances
 			(project "pixel_click"
 				(path "/b4726934-1174-4a6e-82b0-b614e19b85be"
-					(reference "SW2")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -15095,7 +15522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 243.84 55.88 0)
 			(effects
 				(font
@@ -15239,7 +15666,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 166.37 167.64 0)
 			(effects
 				(font
@@ -15308,7 +15735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 157.48 119.38 0)
 			(effects
 				(font
@@ -15378,7 +15805,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 78.74 130.81 0)
 			(effects
 				(font
@@ -15447,7 +15874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 264.16 35.56 0)
 			(effects
 				(font
@@ -15592,7 +16019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 60.96 190.5 0)
 			(effects
 				(font
@@ -15662,7 +16089,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 88.9 170.18 0)
 			(effects
 				(font
@@ -15731,7 +16158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 264.16 55.88 0)
 			(effects
 				(font
@@ -15996,7 +16423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal_Oscillator:XTAL_ECS-400-10-37B2-CKY-TR"
 			(at 96.52 167.64 0)
 			(effects
 				(font
@@ -16071,7 +16498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 180.34 76.2 0)
 			(effects
 				(font
@@ -16216,7 +16643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 20.32 190.5 0)
 			(effects
 				(font
@@ -16361,7 +16788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 223.52 96.52 0)
 			(effects
 				(font
@@ -16404,6 +16831,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 139.7 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53b4a75c-932b-4407-a2bd-4e7ab51e6f2d")
+		(property "Reference" "TP3"
+			(at 144.78 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 144.78 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 139.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6a82393-7a41-47b5-b5b2-b888d4ff2839")
+		)
+		(instances
+			(project "pixel_click"
+				(path "/b4726934-1174-4a6e-82b0-b614e19b85be"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 204.47 139.7 0)
 		(unit 1)
@@ -16430,7 +16925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 204.47 139.7 0)
 			(effects
 				(font
@@ -16499,7 +16994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 204.47 96.52 0)
 			(effects
 				(font
@@ -16633,7 +17128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 172.72 170.18 0)
 			(effects
 				(font
@@ -16703,7 +17198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 180.34 119.38 0)
 			(effects
 				(font
@@ -17076,7 +17571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2450AT18D0100E:DFN320X160X120-4RN"
+		(property "Footprint" "ANT1:DFN320X160X120-4RN"
 			(at 121.92 175.26 0)
 			(effects
 				(font
@@ -17250,7 +17745,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 132.08 50.8 0)
 			(effects
 				(font
@@ -17319,7 +17814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 180.34 139.7 0)
 			(effects
 				(font
@@ -17421,6 +17916,74 @@
 			(project ""
 				(path "/b4726934-1174-4a6e-82b0-b614e19b85be"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 139.7 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6af2f2fb-b68d-4fb3-a74c-d980805b33d9")
+		(property "Reference" "TP5"
+			(at 144.78 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 144.78 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "971ddd08-de98-4bdf-abb2-5cd574568b88")
+		)
+		(instances
+			(project "pixel_click"
+				(path "/b4726934-1174-4a6e-82b0-b614e19b85be"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -17659,7 +18222,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 129.54 38.1 0)
 			(effects
 				(font
@@ -17718,7 +18281,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "2nH"
 			(at 41.275 186.055 90)
 			(effects
 				(font
@@ -17726,7 +18289,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 41.91 187.96 0)
 			(effects
 				(font
@@ -17795,7 +18358,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 45.72 175.26 0)
 			(effects
 				(font
@@ -17929,7 +18492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 180.34 96.52 0)
 			(effects
 				(font
@@ -17996,7 +18559,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 48.26 25.4 0)
 			(effects
 				(font
@@ -18065,7 +18628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 157.48 35.56 0)
 			(effects
 				(font
@@ -18135,7 +18698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 149.86 170.18 0)
 			(effects
 				(font
@@ -18356,7 +18919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 201.93 35.56 0)
 			(effects
 				(font
@@ -18568,7 +19131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 20.32 172.72 0)
 			(effects
 				(font
@@ -18637,7 +19200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 71.12 119.38 0)
 			(effects
 				(font
@@ -18746,7 +19309,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 134.62 270)
+		(at 109.22 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18755,7 +19318,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f2322f8-66da-4d03-b1a6-fce13ea69445")
 		(property "Reference" "#PWR019"
-			(at 100.33 134.62 0)
+			(at 102.87 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18764,7 +19327,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 134.62 0)
+			(at 104.14 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18772,7 +19335,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 134.62 0)
+			(at 109.22 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18781,7 +19344,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 134.62 0)
+			(at 109.22 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18790,7 +19353,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 134.62 0)
+			(at 109.22 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18903,7 +19466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 27.94 190.5 0)
 			(effects
 				(font
@@ -19114,7 +19677,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 81.28 152.4 0)
 			(effects
 				(font
@@ -19184,7 +19747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 157.48 170.18 0)
 			(effects
 				(font
@@ -19253,7 +19816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 180.34 35.56 0)
 			(effects
 				(font
@@ -19452,7 +20015,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Horizontal"
 			(at 198.12 22.86 0)
 			(effects
 				(font
@@ -19716,7 +20279,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 109.22 116.84 270)
+		(at 111.76 116.84 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19724,7 +20287,7 @@
 		(dnp no)
 		(uuid "9f942ce0-2727-49c4-94d4-fe2acf2b8838")
 		(property "Reference" "R9"
-			(at 110.49 118.11 0)
+			(at 113.03 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19733,7 +20296,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 107.95 118.11 0)
+			(at 110.49 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19741,8 +20304,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 109.22 116.84 0)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 111.76 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19751,7 +20314,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 116.84 0)
+			(at 111.76 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19760,7 +20323,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 109.22 116.84 0)
+			(at 111.76 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19810,7 +20373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 243.84 96.52 0)
 			(effects
 				(font
@@ -19946,7 +20509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 264.16 139.7 0)
 			(effects
 				(font
@@ -20015,7 +20578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 180.34 55.88 0)
 			(effects
 				(font
@@ -20084,7 +20647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 83.82 167.64 0)
 			(effects
 				(font
@@ -20218,7 +20781,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 129.54 45.72 0)
 			(effects
 				(font
@@ -20285,7 +20848,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 60.96 83.82 0)
 			(effects
 				(font
@@ -20354,7 +20917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 35.56 190.5 0)
 			(effects
 				(font
@@ -20424,7 +20987,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 92.71 152.4 0)
 			(effects
 				(font
@@ -20623,7 +21186,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 137.16 48.26 0)
 			(effects
 				(font
@@ -20825,7 +21388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 220.98 35.56 0)
 			(effects
 				(font
@@ -20970,7 +21533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 71.12 124.46 0)
 			(effects
 				(font
@@ -21105,7 +21668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 137.16 167.64 0)
 			(effects
 				(font
@@ -21316,7 +21879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 264.16 119.38 0)
 			(effects
 				(font
@@ -21450,7 +22013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 203.2 76.2 0)
 			(effects
 				(font
@@ -21650,7 +22213,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 129.54 154.94 0)
 			(effects
 				(font
@@ -21687,152 +22250,6 @@
 			(project ""
 				(path "/b4726934-1174-4a6e-82b0-b614e19b85be"
 					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 121.92 129.54 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c9df421e-403b-4012-a6a3-418c2be78600")
-		(property "Reference" "SW3"
-			(at 124.46 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "btn1"
-			(at 124.46 132.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 127 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 121.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "042e2b18-e38d-4042-8c04-947bc64d72b9")
-		)
-		(pin "2"
-			(uuid "eb750c26-2e26-44c9-86a4-dbdb82beecf1")
-		)
-		(pin "4"
-			(uuid "a7565a36-bfcf-43f5-bc96-d9f58d5694cb")
-		)
-		(pin "1"
-			(uuid "989fa721-473b-4ef3-8840-41d3ad8d042e")
-		)
-		(instances
-			(project "pixel_click"
-				(path "/b4726934-1174-4a6e-82b0-b614e19b85be"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 139.7 129.54 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cabb5aec-85e9-4bdc-9127-392ea94f9c9f")
-		(property "Reference" "SW5"
-			(at 142.24 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "btn1"
-			(at 142.24 132.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 144.78 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 139.7 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0177a40c-89e0-4c93-80f9-2f961e39f516")
-		)
-		(pin "2"
-			(uuid "b2d3f412-be37-4f44-9a15-aac4edf3cdb7")
-		)
-		(pin "4"
-			(uuid "a3ade916-a794-4f2f-9302-79d8ac1d4dce")
-		)
-		(pin "1"
-			(uuid "eb5f18e8-1208-40fb-85f5-8a25533eb11a")
-		)
-		(instances
-			(project ""
-				(path "/b4726934-1174-4a6e-82b0-b614e19b85be"
-					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -21930,7 +22347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 157.48 139.7 0)
 			(effects
 				(font
@@ -21999,7 +22416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 223.52 55.88 0)
 			(effects
 				(font
@@ -22042,41 +22459,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 96.52 129.54 270)
+		(lib_id "Switch:SW_Push")
+		(at 124.46 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d1a5a54f-cd69-4fd8-b0fb-85c37468558c")
-		(property "Reference" "SW1"
-			(at 99.06 127 0)
+		(uuid "d11677db-b6e0-4a58-b436-d04594a786d6")
+		(property "Reference" "SW4"
+			(at 121.92 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "boot"
-			(at 99.06 132.715 0)
+		(property "Value" "btn5"
+			(at 121.92 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 101.6 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 101.6 129.54 0)
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS"
+			(at 119.38 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22084,8 +22494,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 96.52 129.54 0)
+		(property "Datasheet" "~"
+			(at 119.38 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22093,22 +22503,25 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "763ff65b-0e80-4c37-8c9a-64b586d44570")
+		(property "Description" "Push button switch, generic, two pins"
+			(at 124.46 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "694997dc-d632-4dd4-84cd-9a32604065d3")
-		)
-		(pin "4"
-			(uuid "f176eccc-cd94-4b0c-96ef-fd623ce3a621")
+			(uuid "36f23e1e-0dd8-45e3-9a9b-db15dcb11826")
 		)
 		(pin "1"
-			(uuid "137d96c2-b18c-448f-afa4-113128171f2d")
+			(uuid "c368e769-89c4-4077-ac4f-34ab6f5277c8")
 		)
 		(instances
 			(project "pixel_click"
 				(path "/b4726934-1174-4a6e-82b0-b614e19b85be"
-					(reference "SW1")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -22644,7 +23057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 38.1 109.22 0)
 			(effects
 				(font
@@ -22789,7 +23202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 264.16 76.2 0)
 			(effects
 				(font
@@ -22858,7 +23271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 223.52 119.38 0)
 			(effects
 				(font
@@ -23088,7 +23501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 157.48 96.52 0)
 			(effects
 				(font
@@ -23376,7 +23789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 68.58 147.32 0)
 			(effects
 				(font
@@ -23445,7 +23858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 15.24 109.22 0)
 			(effects
 				(font
@@ -23514,7 +23927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 45.72 190.5 0)
 			(effects
 				(font
@@ -23557,33 +23970,36 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 124.46 147.32 90)
+		(lib_id "Connector:TestPoint")
+		(at 139.7 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e5aa224f-02d3-4793-b674-b844782a7803")
-		(property "Reference" "SW4"
-			(at 116.84 147.32 0)
+		(uuid "e89a05bf-0690-4c62-bdd3-b6684cecbcb8")
+		(property "Reference" "TP7"
+			(at 144.78 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_MEC_5G"
-			(at 119.38 147.32 0)
+		(property "Value" "TestPoint"
+			(at 144.78 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 147.32 0)
+			(at 139.7 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23591,8 +24007,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 119.38 147.32 0)
+		(property "Datasheet" "~"
+			(at 139.7 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23600,31 +24016,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 124.46 147.32 0)
+		(property "Description" "test point"
+			(at 139.7 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "113fa958-5c02-4cd7-9b0b-994426c912c1")
-		)
-		(pin "3"
-			(uuid "e9c20397-7fc8-45e1-8d3e-686a363b9434")
-		)
-		(pin "4"
-			(uuid "1c7bc6ab-d590-4419-9940-1ff149abe40f")
 		)
 		(pin "1"
-			(uuid "d4db857f-bf48-4c56-b84e-4c3f056f6506")
+			(uuid "2e973725-f367-4b07-8f3e-566f0a893aa2")
 		)
 		(instances
-			(project ""
+			(project "pixel_click"
 				(path "/b4726934-1174-4a6e-82b0-b614e19b85be"
-					(reference "SW4")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -23724,7 +24131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 243.84 139.7 0)
 			(effects
 				(font
@@ -23794,7 +24201,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 104.14 170.18 0)
 			(effects
 				(font
@@ -23946,7 +24353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 116.84 154.94 0)
 			(effects
 				(font
@@ -23983,6 +24390,75 @@
 			(project "pixel_click"
 				(path "/b4726934-1174-4a6e-82b0-b614e19b85be"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 96.52 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f514d78d-df97-4cd3-8e8a-93c6196d59c3")
+		(property "Reference" "SW1"
+			(at 99.06 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "btn4"
+			(at 99.06 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS"
+			(at 101.6 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 96.52 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b5a4381c-af93-42ab-b481-a14a369330e5")
+		)
+		(pin "1"
+			(uuid "30f5490c-1d3e-4d51-8810-71bf376b0e73")
+		)
+		(instances
+			(project "pixel_click"
+				(path "/b4726934-1174-4a6e-82b0-b614e19b85be"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -24284,7 +24760,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 111.76 116.84 270)
+		(at 114.3 116.84 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24292,7 +24768,7 @@
 		(dnp no)
 		(uuid "f9c10722-8e81-44d7-b356-12deee8c3c07")
 		(property "Reference" "#PWR018"
-			(at 107.95 116.84 0)
+			(at 110.49 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24301,7 +24777,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 112.395 113.03 0)
+			(at 114.935 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24309,7 +24785,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 116.84 0)
+			(at 114.3 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24318,7 +24794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 116.84 0)
+			(at 114.3 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24327,7 +24803,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 111.76 116.84 0)
+			(at 114.3 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24374,7 +24850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 157.48 76.2 0)
 			(effects
 				(font
@@ -24443,7 +24919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 243.84 119.38 0)
 			(effects
 				(font
@@ -24512,7 +24988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 99.06 116.84 0)
 			(effects
 				(font
@@ -24579,7 +25055,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 137.16 40.64 0)
 			(effects
 				(font
