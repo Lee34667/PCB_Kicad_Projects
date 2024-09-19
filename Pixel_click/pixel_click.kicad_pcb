@@ -7,6 +7,11 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Pixel_click")
+		(date "2024-09-17")
+		(company "Prince Lee Muhera")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(1 "In1.Cu" power "GND")
@@ -38392,7 +38397,7 @@
 		)
 		(polygon
 			(pts
-				(xy 79.6 57.7) (xy 179.6 56.4) (xy 179.2 145.5) (xy 77.9 143.9)
+				(xy 95.2 69.6) (xy 177.2 69.6) (xy 177.3 128.9) (xy 95.2 128.8)
 			)
 		)
 		(filled_polygon
@@ -38960,7 +38965,7 @@
 		)
 		(polygon
 			(pts
-				(xy 79.6 57.7) (xy 179.6 56.4) (xy 179.2 145.5) (xy 77.9 143.9)
+				(xy 95.2 69.6) (xy 177.2 69.6) (xy 177.3 128.9) (xy 95.2 128.8)
 			)
 		)
 		(filled_polygon
